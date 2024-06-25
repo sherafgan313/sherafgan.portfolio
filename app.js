@@ -43,7 +43,6 @@ function pageTransitions(){
     // Form submission and validation
     const form = document.getElementById('contactForm');
     if (form) {
-        form.action = CONFIG.FORMSPREE_URL;
         form.addEventListener('submit', function(e) {
             e.preventDefault();
 
