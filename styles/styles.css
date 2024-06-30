@@ -173,6 +173,35 @@ section {
   pointer-events: none;
 }
 
+
+/* Light mode styles for control buttons and theme button */
+body.light-mode .controlls .control {
+    background-color: var(--color-primary);
+}
+
+body.light-mode .controlls .control i {
+    color: var(--color-grey-4);
+}
+
+body.light-mode .theme-btn {
+    background-color: var(--color-primary);
+}
+
+body.light-mode .theme-btn i {
+    color: var(--color-grey-4);
+}
+
+body.light-mode .controlls .active-btn {
+    background-color: var(--color-secondary) !important;
+}
+
+body.light-mode .controlls .active-btn i {
+    color: var(--color-primary) !important;
+}
+
+
+
+
 .header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
